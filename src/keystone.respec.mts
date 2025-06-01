@@ -1,4 +1,3 @@
-import { Respec, RespecArgs } from '@ibgib/helper-gib/dist/respec-gib/respec-gib.mjs';
 import { getIbGibAddr } from './utils'; // Assuming this is the correct path from compiled output
 import {
     generateChallengeSalt,

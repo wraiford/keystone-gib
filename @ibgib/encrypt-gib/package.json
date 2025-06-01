@@ -1,0 +1,88 @@
+{
+  "name": "@ibgib/encrypt-gib",
+  "version": "0.2.32",
+  "description": "Experimental (weak?) encryption based on cryptographic hashing as the only primitive.",
+  "repository": {
+    "url": "https://github.com/wraiford/encrypt-gib/",
+    "type": "git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/ibGib"
+  },
+  "main": "dist/rli/rli.mjs",
+  "bin": {
+    "encrypt-gib": "dist/rli/rli.mjs",
+    "@ibgib/encrypt-gib": "dist/rli/rli.mjs"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc -b tsconfig.json --force",
+    "build:test": "npm run clean && tsc -b tsconfig.test.json --force",
+    "build:test:noclean": "tsc -b tsconfig.test.json --force",
+    "clean": "rm -rf ./dist",
+    "pretest": "npm run man:test",
+    "test": "npm run test:node",
+    "man:test": "echo 'NOTICE !!!! executing full stress test. also see man:test:quick' !!!! NOTICE",
+    "test:both": "npm run build:test && npm run test:node:nobuild && npm run test:browser:nobuild",
+    "man:test:both": "echo 'use this if you want to test respec in both node and browser contexts'",
+    "test:quick": "npm run test:node:quick",
+    "man:test:quick": "echo 'use this if you want to build+test QUICK respec tests (much MUCH shorter than full test)'",
+    "pretest:node": "npm run build:test",
+    "test:node": "node dist/respec-gib.stress-test.node.mjs",
+    "man:test:node": "echo 'use this if you want to build+test in node'",
+    "test:node:nobuild": "node dist/respec-gib.node.mjs",
+    "man:test:node:nobuild": "echo 'use this if you want to test in node but its already built'",
+    "pretest:node:quick": "npm run build:test",
+    "test:node:quick": "node dist/respec-gib.quick-test.node.mjs",
+    "man:test:node:quick": "echo 'use this if you want to build+test QUICK respec tests in node'",
+    "test:node:quick:nobuild": "node dist/respec-gib.quick-test.node.mjs",
+    "man:test:node:quick:nobuild": "echo 'use this if you want to execute QUICK respec tests in node but its already built'",
+    "pretest:browser": "npm run build:test",
+    "test:browser": "echo \"not implemented yet\"",
+    "man:test:browser": "echo 'use this if you want to build+test only the browser context'",
+    "test:browser:nobuild": "echo \"not implemented yet\"",
+    "man:test:browser:nobuild": "echo 'use this if you want to test only the browser context but its already built'",
+    "test:browser:serve": "npm run build:test && echo \"not implemented yet\"",
+    "man:test:browser:serve": "echo 'use this if you want to build+test in the browser and don't want the browser to close when your done. (i.e. you're debugging)'",
+    "test:browser:serve:nobuild": "echo \"not implemented yet\"",
+    "man:test:browser:serve:nobuild": "echo 'use this if you are troubleshooting existing dist output and don't want to overwrite those files. (and you're debugging in the browser)'",
+    "pack": "npm pack --pack-destination=\"./published\"",
+    "prepare:publish": "npm run prepare:publish:patch",
+    "prepare:publish:patch": "npm run clean && npm version patch && npm run build && npm run pack",
+    "prepare:publish:minor": "npm run clean && npm version minor && npm run build && npm run pack",
+    "prepare:publish:major": "npm run clean && npm version major && npm run build && npm run pack",
+    "man:prepare:publish": "echo 'use this to bump patch > build & tag > pack for publishing to npm repo'",
+    "man:prepare:publish:patch": "echo 'use this to bump patch > build & tag > pack for publishing to npm repo'",
+    "man:prepare:publish:minor": "echo 'use this to bump minor > build & tag > pack for publishing to npm repo'",
+    "man:prepare:publish:major": "echo 'use this to bump major > build & tag > pack for publishing to npm repo'",
+    "prerli:test:foo": "npm run build && npm run rli:test:foo:clean && mkdir foo",
+    "rli:test:foo": "npm run rli:test:foo:encrypt && npm run rli:test:foo:decrypt",
+    "rli:test:foo:encrypt": "node . --encrypt --data-string=\"foo foo\" --output-path=\"./foo/foo.encrypt-gib\"",
+    "rli:test:foo:decrypt": "node . --decrypt --data-path=\"./foo/foo.encrypt-gib\" --output-path=\"./foo/foo.md\"",
+    "rli:test:foo:clean": "rm -rf ./foo"
+  },
+  "type": "module",
+  "keywords": [
+    "ibgib",
+    "typescript",
+    "dlt",
+    "blockchain",
+    "encryption",
+    "hash",
+    "hashing"
+  ],
+  "author": "William Raiford",
+  "license": "ISC",
+  "dependencies": {
+    "@ibgib/helper-gib": "^0.0.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1"
+  },
+  "engines": {
+    "node": ">=19.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

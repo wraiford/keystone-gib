@@ -1,0 +1,32 @@
+"filename", "language", "JSON", "TypeScript", "Markdown", "JSON with Comments", "comment", "blank", "total"
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/CHANGELOG.md", "Markdown", 0, 0, 164, 0, 0, 28, 192
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/README.md", "Markdown", 0, 0, 429, 0, 0, 118, 547
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/package-lock.json", "JSON", 57, 0, 0, 0, 0, 1, 58
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/package.json", "JSON", 66, 0, 0, 0, 0, 1, 67
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/constants.mts", "TypeScript", 0, 8, 0, 0, 42, 2, 52
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/factory.mts", "TypeScript", 0, 101, 0, 0, 18, 8, 127
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/factory.respec.mts", "TypeScript", 0, 129, 0, 0, 15, 22, 166
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/index.mts", "TypeScript", 0, 5, 0, 0, 0, 1, 6
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/sha256v1.mts", "TypeScript", 0, 110, 0, 0, 30, 6, 146
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/sha256v1.respec.mts", "TypeScript", 0, 180, 0, 0, 31, 21, 232
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/fork.mts", "TypeScript", 0, 73, 0, 0, 19, 14, 106
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/fork.spec.mts", "TypeScript", 0, 275, 0, 0, 86, 53, 414
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/index.mts", "TypeScript", 0, 4, 0, 0, 0, 1, 5
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/mut8.mts", "TypeScript", 0, 139, 0, 0, 80, 21, 240
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/mut8.spec.mts", "TypeScript", 0, 448, 0, 0, 87, 123, 658
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/rel8.mts", "TypeScript", 0, 134, 0, 0, 24, 20, 178
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/rel8.spec.mts", "TypeScript", 0, 380, 0, 0, 99, 79, 558
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/transform-helper.mts", "TypeScript", 0, 153, 0, 0, 90, 22, 265
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/transform-helper.spec.mts", "TypeScript", 0, 28, 0, 0, 11, 8, 47
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/types.mts", "TypeScript", 0, 39, 0, 0, 129, 4, 172
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/v1-helper.mts", "TypeScript", 0, 50, 0, 0, 36, 11, 97
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/validate-helper.mts", "TypeScript", 0, 191, 0, 0, 105, 35, 331
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/validate-helper.respec.mts", "TypeScript", 0, 123, 0, 0, 19, 13, 155
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/helper.mts", "TypeScript", 0, 49, 0, 0, 22, 6, 77
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/helper.respec.mts", "TypeScript", 0, 49, 0, 0, 2, 12, 63
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/index.mts", "TypeScript", 0, 3, 0, 0, 0, 1, 4
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/respec-gib.node.mts", "TypeScript", 0, 119, 0, 0, 53, 28, 200
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/src/types.mts", "TypeScript", 0, 62, 0, 0, 210, 2, 274
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/tsconfig.json", "JSON with Comments", 0, 0, 0, 17, 0, 1, 18
+"/home/wraiford/ibgib/ibgib/libs/ts-gib/tsconfig.test.json", "JSON", 11, 0, 0, 0, 1, 1, 13
+"Total", "-", 134, 2852, 593, 17, 1209, 663, 5468

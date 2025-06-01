@@ -1,0 +1,61 @@
+{
+  "name": "@ibgib/helper-gib",
+  "version": "0.0.31",
+  "description": "common helper/utils/etc used in ibgib libs. Node v19+ needed for heavily-used isomorphic webcrypto hashing consumed in both node and browsers.",
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/ibGib"
+  },
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "npm run clean && tsc -b tsconfig.json --force",
+    "build:test": "npm run clean && tsc -b tsconfig.test.json --force",
+    "build:test:noclean": "tsc -b tsconfig.test.json --force",
+    "build:link": "npm uninstall --global @ibgib/helper-gib && npm ls --global --link=true && npm link",
+    "prebuild:link": "npm run build && npm ls --global --link=true",
+    "postbuild:link": "npm ls --global --link=true",
+    "man:build:link": "echo 'builds and relinks this package AFTER first removing the global package.'",
+    "clean": "rm -rf ./dist",
+    "test": "npm run test:both",
+    "test:both": "npm run build:test && npm run test:node:nobuild && npm run test:browser:nobuild",
+    "man:test:both": "use this if you want to test in both node and browser contexts",
+    "pretest:node": "npm run build:test",
+    "test:node": "node dist/respec-gib.node.mjs --inspect",
+    "man:test:node": "use this if you want to build+test in node",
+    "test:node:nobuild": "node dist/respec-gib.node.mjs --inspect",
+    "man:test:node:nobuild": "use this if you want to test in node but its already built",
+    "test:browser": "echo 'not implemented...moving browser testing into another lib to reduce node_modules size'",
+    "man:test:browser": "use this if you want to build+test only the browser context",
+    "test:browser:nobuild": "echo 'not implemented...moving browser testing into another lib to reduce node_modules size'",
+    "man:test:browser:nobuild": "use this if you want to test only the browser context but its already built",
+    "test:browser:serve": "echo 'not implemented'",
+    "man:test:browser:serve": "use this if you want to build+test in the browser and don't want the browser to close when your done. (i.e. you're debugging)",
+    "test:browser:serve:nobuild": "echo 'not implemented'",
+    "man:test:browser:serve:nobuild": "use this if you are troubleshooting existing dist output and don't want to overwrite those files. (and you're debugging in the browser)",
+    "pack": "npm pack --pack-destination=\"./published\"",
+    "prepare:publish": "npm run clean && npm version patch && npm run build && npm run pack",
+    "man:prepare:publish": "use this to patch > build > pack for publishing to npm repo"
+  },
+  "type": "module",
+  "keywords": [
+    "ibgib",
+    "helper",
+    "utility",
+    "respec",
+    "spec",
+    "ssml helper",
+    "test framework"
+  ],
+  "author": "William Raiford",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1"
+  },
+  "engines": {
+    "node": ">=19.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}

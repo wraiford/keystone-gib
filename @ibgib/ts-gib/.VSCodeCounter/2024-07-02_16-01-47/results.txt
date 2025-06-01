@@ -1,0 +1,63 @@
+Date : 2024-07-02 16:01:47
+Directory : /home/wraiford/ibgib/ibgib/libs/ts-gib
+Total : 30 files,  3596 codes, 1209 comments, 663 blanks, all 5468 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| TypeScript         |         24 |      2,852 |      1,208 |        513 |      4,573 |
+| Markdown           |          2 |        593 |          0 |        146 |        739 |
+| JSON               |          3 |        134 |          1 |          3 |        138 |
+| JSON with Comments |          1 |         17 |          0 |          1 |         18 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |         30 |      3,596 |      1,209 |        663 |      5,468 |
+| . (Files)                                                                          |          6 |        744 |          1 |        150 |        895 |
+| src                                                                                |         24 |      2,852 |      1,208 |        513 |      4,573 |
+| src (Files)                                                                        |          5 |        282 |        287 |         49 |        618 |
+| src/V1                                                                             |         19 |      2,570 |        921 |        464 |      3,955 |
+| src/V1 (Files)                                                                     |         10 |        936 |        425 |        123 |      1,484 |
+| src/V1/transforms                                                                  |          9 |      1,634 |        496 |        341 |      2,471 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                           | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/CHANGELOG.md                                | Markdown           |        164 |          0 |         28 |        192 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/README.md                                   | Markdown           |        429 |          0 |        118 |        547 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/package-lock.json                           | JSON               |         57 |          0 |          1 |         58 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/package.json                                | JSON               |         66 |          0 |          1 |         67 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/constants.mts                        | TypeScript         |          8 |         42 |          2 |         52 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/factory.mts                          | TypeScript         |        101 |         18 |          8 |        127 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/factory.respec.mts                   | TypeScript         |        129 |         15 |         22 |        166 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/index.mts                            | TypeScript         |          5 |          0 |          1 |          6 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/sha256v1.mts                         | TypeScript         |        110 |         30 |          6 |        146 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/sha256v1.respec.mts                  | TypeScript         |        180 |         31 |         21 |        232 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/fork.mts                  | TypeScript         |         73 |         19 |         14 |        106 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/fork.spec.mts             | TypeScript         |        275 |         86 |         53 |        414 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/index.mts                 | TypeScript         |          4 |          0 |          1 |          5 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/mut8.mts                  | TypeScript         |        139 |         80 |         21 |        240 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/mut8.spec.mts             | TypeScript         |        448 |         87 |        123 |        658 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/rel8.mts                  | TypeScript         |        134 |         24 |         20 |        178 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/rel8.spec.mts             | TypeScript         |        380 |         99 |         79 |        558 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/transform-helper.mts      | TypeScript         |        153 |         90 |         22 |        265 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/transforms/transform-helper.spec.mts | TypeScript         |         28 |         11 |          8 |         47 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/types.mts                            | TypeScript         |         39 |        129 |          4 |        172 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/v1-helper.mts                        | TypeScript         |         50 |         36 |         11 |         97 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/validate-helper.mts                  | TypeScript         |        191 |        105 |         35 |        331 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/V1/validate-helper.respec.mts           | TypeScript         |        123 |         19 |         13 |        155 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/helper.mts                              | TypeScript         |         49 |         22 |          6 |         77 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/helper.respec.mts                       | TypeScript         |         49 |          2 |         12 |         63 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/index.mts                               | TypeScript         |          3 |          0 |          1 |          4 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/respec-gib.node.mts                     | TypeScript         |        119 |         53 |         28 |        200 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/src/types.mts                               | TypeScript         |         62 |        210 |          2 |        274 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/tsconfig.json                               | JSON with Comments |         17 |          0 |          1 |         18 |
+| /home/wraiford/ibgib/ibgib/libs/ts-gib/tsconfig.test.json                          | JSON               |         11 |          1 |          1 |         13 |
+| Total                                                                              |                    |      3,596 |      1,209 |        663 |      5,468 |
++------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

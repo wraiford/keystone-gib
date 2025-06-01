@@ -1,0 +1,71 @@
+Date : 2024-07-02 15:59:41
+Directory : /home/wraiford/ibgib/ibgib/libs/encrypt-gib
+Total : 37 files,  4692 codes, 1419 comments, 900 blanks, all 7011 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| TypeScript         |         27 |      3,092 |      1,418 |        556 |      5,066 |
+| Markdown           |          6 |      1,424 |          0 |        342 |      1,766 |
+| JSON               |          3 |        159 |          1 |          2 |        162 |
+| JSON with Comments |          1 |         17 |          0 |          0 |         17 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         37 |      4,692 |      1,419 |        900 |      7,011 |
+| . (Files)                                                                                               |          9 |      1,599 |          1 |        343 |      1,943 |
+| src                                                                                                     |         28 |      3,093 |      1,418 |        557 |      5,068 |
+| src (Files)                                                                                             |         11 |        916 |        689 |        196 |      1,801 |
+| src/block-mode                                                                                          |          7 |      1,062 |        419 |        167 |      1,648 |
+| src/common                                                                                              |          1 |         82 |         19 |          5 |        106 |
+| src/rcli                                                                                                |          5 |        729 |        194 |        132 |      1,055 |
+| src/stream-mode                                                                                         |          4 |        304 |         97 |         57 |        458 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/CHANGELOG.md                                                | Markdown           |         77 |          0 |         28 |        105 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/CONTRIBUTING.md                                             | Markdown           |          5 |          0 |          4 |          9 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/OPPORTUNITY.md                                              | Markdown           |        273 |          0 |         63 |        336 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/README.md                                                   | Markdown           |        979 |          0 |        220 |      1,199 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/README_github_issue.md                                      | Markdown           |         89 |          0 |         26 |        115 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/package-lock.json                                           | JSON               |         60 |          0 |          1 |         61 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/package.json                                                | JSON               |         88 |          0 |          1 |         89 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/decrypt-block-mode.mts                       | TypeScript         |         88 |         16 |         20 |        124 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/decrypt-to-hex-block-mode.mts                | TypeScript         |        162 |        103 |         26 |        291 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/decrypt-to-hex-block-mode.respec.mts         | TypeScript         |         66 |         70 |         15 |        151 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/encrypt-block-mode.mts                       | TypeScript         |        126 |         38 |         27 |        191 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/encrypt-from-hex-block-mode.mts              | TypeScript         |        168 |         96 |         28 |        292 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/encrypt-from-hex-block-mode.quick.respec.mts | TypeScript         |        217 |         43 |         24 |        284 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/block-mode/encrypt-from-hex-block-mode.respec.mts       | TypeScript         |        235 |         53 |         27 |        315 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/common/encrypt-decrypt-common.mts                       | TypeScript         |         82 |         19 |          5 |        106 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/constants.mts                                           | TypeScript         |         12 |         33 |          4 |         49 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/encrypt-decrypt.mitigation.respec.mts                   | TypeScript         |        101 |         72 |         27 |        200 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/encrypt-decrypt.mts                                     | TypeScript         |         56 |         41 |         12 |        109 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/encrypt-decrypt.quick.respec.mts                        | TypeScript         |         84 |         13 |         20 |        117 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/encrypt-decrypt.stress.respec.mts                       | TypeScript         |        123 |         34 |         20 |        177 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/helper.mts                                              | TypeScript         |         72 |         28 |          8 |        108 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/helper.respec.mts                                       | TypeScript         |        159 |         21 |         32 |        212 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/index.mts                                               | TypeScript         |          3 |          3 |          1 |          7 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/rcli/rcli-constants.mts                                 | TypeScript         |         80 |          3 |          4 |         87 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/rcli/rcli-helper.mts                                    | TypeScript         |        441 |         89 |         64 |        594 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/rcli/rcli-types.mts                                     | TypeScript         |          1 |         56 |          6 |         63 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/rcli/rcli.mts                                           | TypeScript         |        206 |         46 |         57 |        309 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/rcli/test-plaintext.md                                  | Markdown           |          1 |          0 |          1 |          2 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/respec-gib.quick-test.node.mts                          | TypeScript         |        122 |         52 |         29 |        203 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/respec-gib.stress-test.node.mts                         | TypeScript         |        126 |         64 |         31 |        221 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/stream-mode/decrypt-stream-mode.mts                     | TypeScript         |         71 |         22 |         17 |        110 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/stream-mode/decrypt-to-hex-stream-mode.mts              | TypeScript         |         56 |         28 |          9 |         93 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/stream-mode/encrypt-from-hex-stream-mode.mts            | TypeScript         |         60 |         18 |          8 |         86 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/stream-mode/encrypt-stream-mode.mts                     | TypeScript         |        117 |         29 |         23 |        169 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/src/types.mts                                               | TypeScript         |         58 |        328 |         12 |        398 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/tsconfig.json                                               | JSON with Comments |         17 |          0 |          0 |         17 |
+| /home/wraiford/ibgib/ibgib/libs/encrypt-gib/tsconfig.test.json                                          | JSON               |         11 |          1 |          0 |         12 |
+| Total                                                                                                   |                    |      4,692 |      1,419 |        900 |      7,011 |
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
